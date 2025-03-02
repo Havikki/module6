@@ -131,6 +131,10 @@
                 display: inline-block;
             }
 			
-			
+			img		{ 
+                max-width: 100%;
+                float: none; /* YOU CAN FLOAT AN ELEMENT WITHIN A GRID AREA */
+                margin: 0 auto 0 auto;
+            }
 
         }
